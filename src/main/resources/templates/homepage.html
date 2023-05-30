@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en" xmlns:th="https://www.thymeleaf.com">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Account Registry Service</title>
+
+</head>
+
+<body>
+<style>
+
+html, body {
+      height: 100%;
+      margin: 0;
+    }
+body{
+background: linear-gradient(to bottom, #262626, #737373);
+}
+<style>
+    .navbar-toggler {
+      margin: 10px;
+    }
+
+</style>
+
+
+<nav class="navbar-light bg-black">
+    <div class="container-fluid">
+        <a class="navbar-brand text-white" href="/homepage">Account Registry Service</a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="homepage">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="account_register">Register Account</a>
+                </li>
+                <li class = "nav-item">
+                    <a class="nav-link text-white" href="product_register">Register Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="new-link text-white" href="accounts">Accounts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="new-link text-white" href=" accountproducts">Account Products</a>
+                </li>
+                <style>
+                    .new-link{
+                    text-decoration: none;
+                    }
+
+                </style>
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<style>
+.image-container {
+  position: relative;
+  width: 400px; /* Adjust the width of the container as needed */
+  height: 800px; /* Adjust the height of the container as needed */
+}
+
+.custom-image {
+  position: absolute;
+  top: -20%;
+  left: 90%;
+  transform: translate(50%, 50%);
+}
+
+</style>
+<div class="image-container">
+<img src="https://images.unsplash.com/photo-1606140997117-cc3f4f28ba88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z3JleSUyMG1vdW50YWlufGVufDB8fDB8fHww&w=1000&q=80" class="custom-image" alt="..." style="width:900px; height:400px">
+<style>
+    .image-container {
+  position: relative;
+  display: inline-block;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+</style>
+</div>
+
+
+<style>
+    .description {
+      position: absolute;
+      top: 62%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      /* Additional styling */
+      width: 1000px;
+      height: 600px;
+
+    }
+
+  </style>
+
+<div class="description text-white">
+    <p style="font-size: 40px;">
+    </p>
+    <p style="text-align: center;">
+    Welcome to ARS, your go-to account and product registry service. With our technology you can easily store and retrieve accounts via auto-generated & unique account ID's
+    and receive quick and reliant product numbers for each of your clients purchases.
+</div>
+
+</body>
+</html>
